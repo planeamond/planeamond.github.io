@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A3D22F;
+    font-family: 'ChosunGu';
+    font-weight: normal;
+    font-style: normal;
+
+    background-image: url(bg.jpeg);
+    background-size: cover;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+img {
+    width: 100%; /* 이미지 너비를 100%로 설정 */
+    height: 100%; /* 이미지 높이를 100%로 설정 */
+    object-fit: cover; /* 영역을 채우는 방식 */
+    object-position: center center; /* 이미지가 중앙에 위치하도록 설정 */
+}
+
+#text {
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    pointer-events: none;
+}
+
+.text {
+    max-width: 240px;
+    word-break: keep-all;
+
+    font-size: 13px;
+    text-align: center;
+    
+    line-height: 1.6;
+
+    display: none;}
+
+.text b {
+    font-size: 16px;
+    line-height: 2.0;
+    padding-bottom: 10px;
+}
