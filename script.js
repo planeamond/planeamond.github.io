@@ -15,7 +15,7 @@ const imageUrls = [
     "https://i.imgur.com/AeUr44G.png",   // 김도연
     "https://i.imgur.com/zImokov.png",  // 박재민
 
-    "https://imgur.com/VddZGbA",   // 곽도아
+    "https://i.imgur.com/VddZGbA.jpeg",   // 곽도아
     "https://i.imgur.com/WkgJuzh.png",  // 이경현
     "https://ifh.cc/g/pqwwd7.jpg",  // 김지선
     
